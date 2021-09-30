@@ -1,0 +1,129 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+main{
+    box-shadow: inset -69px 37px 24px -68px lightskyblue;
+}
+/*header*/
+header{
+    background-color: rgba(145, 62, 212, 0.274);
+    box-shadow: 5px 10px 20px #F8C0C8;
+    position: fixed;
+    width: 100%;
+}
+nav{
+    
+    padding: 0.5% 0%;
+    text-align: right;
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0.8em;
+    margin-right: 2em;
+}
+header li{
+    display: inline;
+    padding: 0.6em 0.8em;
+    margin: 1% 0.5%;
+    background-color: rgba(228, 92, 160, 0.671);
+    border-radius: 20px;
+    font-family: 'Monoton', cursive;
+    font-size: 1.5vw;
+    
+    
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(54, 47, 150);
+    text-transform: uppercase;
+}
+.contacto{
+    background-color: aqua;
+    text-transform: uppercase;
+}
+/*MAIN*/
+main{
+    background-image: url("../img/bg1.jpg");
+    background-repeat: repeat;
+}
+/*aqui comiensa el primer section*/
+.primera{
+    display: flex;
+    /*margin: 2% auto;*/
+    width: 90%;
+    justify-content: center;
+    align-content: center;
+    padding: 4%;
+    padding-top: 10em;
+}
+.text{
+    flex-basis: 45%;
+    text-align: center;
+}
+.imagen{
+    flex-basis: 45%;
+}
+h1{
+    font-size: 3vw;
+    margin-top: 0.8em;
+    font-family: 'Gluten', cursive;
+    padding-top: 1em;
+    color: cornflowerblue;
+}
+/*.primera */h2{
+    font-size: 6vw;
+    font-family: 'Dancing Script', cursive;
+    color: #9C0D38;
+}
+.parrafo{
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    margin-bottom: 2em;
+    margin: 0.2em;
+}
+.primera a{
+    color: hotpink;
+    text-decoration: none;
+}
+.primera li{
+    list-style: none;
+    padding: 0.3em;
+    margin: 1em auto;
+    width: 10em;
+    border-radius: 20px;
+    font-family: 'Monoton', cursive;
+    font-size: 1.5vw;
+}
+.segunda, .cuarta{
+    text-align: center;
+    margin: 4% auto;
+    width: 70%;
+    background-color: rgba(50, 33, 54, 0.74);
+    box-shadow: 2px 1px 24px 19px #6BE9F9;
+}
+.segunda p, .cuarta p{
+    font-size: 1.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(132, 204, 192);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+}
+.divflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tercera{
+    background-color: rgba(161, 118, 189, 0.295);
+    text-align: center;
+}
+.cita{
+    width: 40%;
+    margin: 1% auto;
+}
