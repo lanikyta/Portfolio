@@ -31,19 +31,25 @@ header li{
     background-color: rgba(228, 92, 160, 0.671);
     border-radius: 20px;
     font-family: 'Monoton', cursive;
-    font-size: 1.5vw;
-    
-    
+    font-size: 1.5vw;    
 }
-
+header li:hover{
+    box-shadow: 2px 1px 24px 19px #6BE9F9;
+    border-radius: 20px;
+}
 header a{
     text-decoration: none;
     color: rgb(54, 47, 150);
     text-transform: uppercase;
 }
-.contacto{
+
+.buttdif{
     background-color: aqua;
     text-transform: uppercase;
+}
+.buttdif:hover{
+    box-shadow: 2px 1px 24px 19px #F8C0C8;
+    border-radius: 20px;
 }
 /*MAIN*/
 main{
@@ -58,7 +64,7 @@ main{
     justify-content: center;
     align-content: center;
     padding: 4%;
-    padding-top: 10em;
+    padding-top: 10%;
 }
 .text{
     flex-basis: 45%;
@@ -69,10 +75,12 @@ main{
 }
 h1{
     font-size: 3vw;
-    margin-top: 0.8em;
     font-family: 'Gluten', cursive;
-    padding-top: 1em;
     color: cornflowerblue;
+}
+.primera h1{
+    margin-top: 0.8em;
+    padding-top: 1em;
 }
 /*.primera */h2{
     font-size: 6vw;
@@ -102,9 +110,22 @@ h1{
 .segunda, .cuarta{
     text-align: center;
     margin: 4% auto;
+    padding: 2%;
     width: 70%;
     background-color: rgba(50, 33, 54, 0.74);
     box-shadow: 2px 1px 24px 19px #6BE9F9;
+}
+.c1{
+    width: 25%;
+    padding: 2%;
+}
+.c1:hover{
+    box-shadow: 2px 1px 24px 19px #6BE9F9;
+    border-radius: 5px;
+
+}
+.segunda img{
+    width: 50%;
 }
 .segunda p, .cuarta p{
     font-size: 1.5vw;
@@ -114,11 +135,18 @@ h1{
     padding-bottom: 2em;
     
 }
+figcaption{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+}
 .divflex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
+
 .tercera{
     background-color: rgba(161, 118, 189, 0.295);
     text-align: center;
@@ -126,4 +154,21 @@ h1{
 .cita{
     width: 40%;
     margin: 1% auto;
+}
+.quinta{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 1em auto;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(161, 118, 189, 0.295);
+}
+.columna{
+    margin: 1em auto;
+    padding: 1em;
+    flex-basis: 40%;
+}
+.escribime{
+    flex-basis: 40%;
 }

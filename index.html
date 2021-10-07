@@ -14,53 +14,53 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="#">hola</a></li>
-                    <li><a href="#">conocimientos</a></li>
-                    <li><a href="#">proyectos</a></li>
-                    <li class="contacto"><a href="#" >contacto</a></li>
+                    <li><a href="#hola">hola</a></li>
+                    <li><a href="#conocimientos">conocimientos</a></li>
+                    <li><a href="#proyectos">proyectos</a></li>
+                    <li class="buttdif"><a href="#contacto" >contacto</a></li>
                 </ul>
             </nav>
         </header>
         <!--aqui comienza el main-->
         <main>
             <section class="primera">
-                <div class="text">
+                <div class="text" id="hola">
                     <h1>Hola soy</h1>
                     <h2>Aylen Cruz</h2>
                     <p class="parrafo">Programadora, gamer y una soñadora</p>
-                    <li class="contacto"><a href="#" >lo que hago</a></li>
+                    <li class="buttdif"><a href="#" >lo que hago</a></li>
                 </div>
                 <div class="imagen">
                     <img src="img/1.png" alt="dibujopc" width="100%">
                 </div>
             </section>
-            <section class="segunda">
+            <section class="segunda" id="conocimientos">
                 <h1>Mis conocimientos</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vero, libero repellat numquam eum accusantium magnam alias doloremque sed neque dolorum eius sit vel provident laborum, saepe, quas maiores non.</p>
                 <div class="divflex">
                     <div class="c1" id="caja1">
-                        <img src="img/girlicon.png" alt="chica teclado">
+                        <img src="iconos/html5.svg" alt="icono html5">
                         <figcaption>HTML-5</figcaption>
                     </div>
                     <div class="c1" id="caja2">
-                        <img src="img/girlicon.png" alt="chica teclado">
-                        <figcaption>HTML-5</figcaption>
+                        <img src="iconos/css.svg" alt="icono css">
+                        <figcaption>CSS 3</figcaption>
                     </div>
                     <div class="c1" id="caja3">
-                        <img src="img/girlicon.png" alt="chica teclado">
-                        <figcaption>HTML-5</figcaption>
+                        <img src="iconos/Sass.svg" alt="icono sass">
+                        <figcaption>Sass</figcaption>
                     </div>
                     <div class="c1" id="caja4">
-                        <img src="img/girlicon.png" alt="chica teclado">
-                        <figcaption>HTML-5</figcaption>
+                        <img src="iconos/Js.svg" alt="icono js">
+                        <figcaption>JavaScript</figcaption>
                     </div>
                     <div class="c1" id="caja5">
-                        <img src="img/girlicon.png" alt="chica teclado">
-                        <figcaption>HTML-5</figcaption>
+                        <img src="iconos/React.svg" alt="icono react">
+                        <figcaption>React</figcaption>
                     </div>
                     <div class="c1" id="caja6">
-                        <img src="img/girlicon.png" alt="chica teclado">
-                        <figcaption>HTML-5</figcaption>
+                        <img src="iconos/git.svg" alt="icono git">
+                        <figcaption>GIT</figcaption>
                     </div>
                 </div>
             </section>
@@ -73,7 +73,7 @@
                 </div>
             </section>
             
-            <section class="cuarta">
+            <section class="cuarta" id="proyectos">
                 <h1>Mis proyectos</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vero, libero repellat numquam eum accusantium magnam alias doloremque sed neque dolorum eius sit vel provident laborum, saepe, quas maiores non.</p>
                 <div class="divflex">
@@ -107,8 +107,24 @@
                     </div>
                 </div>
             </section>
-            <section>
-                
+            <section class="quinta" id="contacto">
+                <div class="columna">
+                    <h1>Contactame</h1>
+                </div>
+                <div class="columna">
+                    <h1>Escribime</h1>
+                    <form action="">
+              
+                        <div class="input-name-wrapper">
+                                 
+                            <label for="firstname">Nombre *</label>
+                  
+                                <input type="text" name="Nombre" id="firtsname"class="input-firtsname input-control" placeholder="p. ej.: Ada"/>
+                        <button type="submit" class="contact-send-btn button">Enviar
+                        </button>
+                        
+                    </form>
+                </div>
             </section>
         </main>
         <!--aqui comienza el footer-->
