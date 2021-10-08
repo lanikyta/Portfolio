@@ -11,6 +11,7 @@ header{
     box-shadow: 5px 10px 20px #F8C0C8;
     position: fixed;
     width: 100%;
+    margin-bottom: 2%;
 }
 nav{
     
@@ -82,13 +83,13 @@ h1{
     margin-top: 0.8em;
     padding-top: 1em;
 }
-/*.primera */h2{
+h2{
     font-size: 6vw;
     font-family: 'Dancing Script', cursive;
     color: #9C0D38;
 }
 .parrafo{
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: 'Courier New', Courier, monospace;
     color: darkblue;
     margin-bottom: 2em;
@@ -107,36 +108,43 @@ h1{
     font-family: 'Monoton', cursive;
     font-size: 1.5vw;
 }
+
+/*segunda section*/
+
 .segunda, .cuarta{
     text-align: center;
     margin: 4% auto;
     padding: 2%;
+    padding-top: 6%;
     width: 70%;
     background-color: rgba(50, 33, 54, 0.74);
     box-shadow: 2px 1px 24px 19px #6BE9F9;
 }
 .c1{
-    width: 25%;
-    padding: 2%;
+    width: 30%;
+    padding: 1%;
+    align-items: ;
 }
 .c1:hover{
     box-shadow: 2px 1px 24px 19px #6BE9F9;
     border-radius: 5px;
 
 }
+img{
+    width: 100%;
+}
 .segunda img{
     width: 50%;
 }
-.segunda p, .cuarta p{
-    font-size: 1.5vw;
+.parrafo2{
+    font-size: 2vw;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(132, 204, 192);
     padding-top: 2em;
     padding-bottom: 2em;
-    
 }
 figcaption{
-    font-size: 1.5em;
+    font-size: 1.5vw;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: aqua;
@@ -147,6 +155,8 @@ figcaption{
     justify-content: space-around;
 }
 
+/*tercer section*/
+
 .tercera{
     background-color: rgba(161, 118, 189, 0.295);
     text-align: center;
@@ -155,14 +165,21 @@ figcaption{
     width: 40%;
     margin: 1% auto;
 }
+
+/*quinta section*/
+
 .quinta{
     display: flex;
-    flex-wrap: wrap;
     width: 70%;
     margin: 1em auto;
     justify-content: center;
     text-align: center;
     background-color: rgba(161, 118, 189, 0.295);
+}
+.quinta p{
+    font-size: 1.5vw;
+    color: rgb(241, 114, 110);
+    font-weight: bold;
 }
 .columna{
     margin: 1em auto;
@@ -170,5 +187,40 @@ figcaption{
     flex-basis: 40%;
 }
 .escribime{
-    flex-basis: 40%;
+    
+}
+
+/*formulario*/
+
+input[type=text], [type=email]{
+    background-color: rgba(241, 142, 167, 0.801);
+    border: 2px dotted rgb(142, 160, 241);
+    border-radius: 25px;
+    height: 2em;
+    width: 40%;
+}
+input[type=email]{
+    width: 90%;
+}
+
+input, textarea{
+    color: rgb(121, 14, 221);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1vw;
+}
+textarea{
+    background-color: rgba(241, 142, 167, 0.801);
+    border: 2px dotted rgb(142, 160, 241);
+    border-radius: 4px;
+    padding-left: 5px;
+    color: black;
+    height: 140px;
+    margin-top: 10px;
+}
+button{
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid rgb(121, 14, 221);
+    padding: 1em;
+    border-radius: 10px;
 }

@@ -23,8 +23,9 @@
         </header>
         <!--aqui comienza el main-->
         <main>
-            <section class="primera">
-                <div class="text" id="hola">
+            <!--sección de presentación-->
+            <section class="primera" id="hola">
+                <div class="text" >
                     <h1>Hola soy</h1>
                     <h2>Aylen Cruz</h2>
                     <p class="parrafo">Programadora, gamer y una soñadora</p>
@@ -34,9 +35,12 @@
                     <img src="img/1.png" alt="dibujopc" width="100%">
                 </div>
             </section>
+
+        <!--sección de conocimientos-->
+
             <section class="segunda" id="conocimientos">
                 <h1>Mis conocimientos</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vero, libero repellat numquam eum accusantium magnam alias doloremque sed neque dolorum eius sit vel provident laborum, saepe, quas maiores non.</p>
+                <p class="parrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vero, libero repellat numquam eum accusantium magnam alias doloremque sed neque dolorum eius sit vel provident laborum, saepe, quas maiores non.</p>
                 <div class="divflex">
                     <div class="c1" id="caja1">
                         <img src="iconos/html5.svg" alt="icono html5">
@@ -65,6 +69,8 @@
                 </div>
             </section>
 
+            <!--sección de cita-->
+
             <section class="tercera">
                 <div class="cita">
                     <h2>"</h2>
@@ -73,25 +79,27 @@
                 </div>
             </section>
             
+            <!--sección de proyectos-->
+
             <section class="cuarta" id="proyectos">
                 <h1>Mis proyectos</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vero, libero repellat numquam eum accusantium magnam alias doloremque sed neque dolorum eius sit vel provident laborum, saepe, quas maiores non.</p>
+                <p class="parrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vero, libero repellat numquam eum accusantium magnam alias doloremque sed neque dolorum eius sit vel provident laborum, saepe, quas maiores non.</p>
                 <div class="divflex">
                     <div class="c1" id="cajaA">
                         <img src="img/girlicon.png" alt="chica teclado">
-                        <figcaption>HTML-5</figcaption>
+                        <figcaption>Portfolio</figcaption>
                     </div>
                     <div class="c1" id="cajaB">
-                        <img src="img/girlicon.png" alt="chica teclado">
-                        <figcaption>HTML-5</figcaption>
+                        <img src="img/girl2.png" alt="chica teclado">
+                        <figcaption>Botanic Gallery</figcaption>
                     </div>
                     <div class="c1" id="cajaC">
-                        <img src="img/girlicon.png" alt="chica teclado">
-                        <figcaption>HTML-5</figcaption>
+                        <img src="img/girl3.png" alt="chica teclado">
+                        <figcaption>Pianos</figcaption>
                     </div>
                     <div class="c1" id="cajaD">
-                        <img src="img/girlicon.png" alt="chica teclado">
-                        <figcaption>HTML-5</figcaption>
+                        <a href="https://lanikyta.github.io/Responsive-Single-Page/" target="_blank"><img src="img/girl4.png" alt="chica azul auris"></a>
+                        <figcaption>Responsive Single Page</figcaption>
                     </div>
                     <div class="c1" id="cajaE">
                         <img src="img/girlicon.png" alt="chica teclado">
@@ -107,27 +115,37 @@
                     </div>
                 </div>
             </section>
+
+            <!--sección de contacto-->
+
             <section class="quinta" id="contacto">
                 <div class="columna">
                     <h1>Contactame</h1>
+                    <p class="parrafo2">Aquí te dejo los links de mis paginas personales para que puedas saber mas de mi o para comunicarte conmigo. Si lo prefieres, puedes dejarme un mensaje con tus datos y yo me comunicaré contigo.</p>
+                    <li><a href="https://www.facebook.com/Nikycruz" target="_blank">Ayleen Cruz</a></li>
+                    <li><a href="https://github.com/lanikyta" target="_blank">lanikyta</a></li>
+                    <li><a href="#">linkedin</a></li>
+                    <li><a href="mailto:lanikyta29@gmail.com">lanikyta29@gmail.com</a></li>
                 </div>
                 <div class="columna">
                     <h1>Escribime</h1>
                     <form action="">
               
-                        <div class="">
+                        <div class="divflex">
                                  
-                            <label for="firstname">Nombre *</label>                
+                            <label>Nombre *               
                                 <input type="text" name="Nombre" placeholder="p. ej.: Edward"/>
-                            
-                            <label for="lasttname">Apellido *</label>                
+                            </label> 
+                            <label>Apellido *               
                                 <input type="text" name="Apellido" placeholder="p. ej.: Cullen"/>
-                            <label for="email">Email *</label>                
-                                <input type="email" name="Email" placeholder="p. ej.: teamoedward@gmail.com"/>  
-                            <label for="message">Mensaje *</label>
-                                <textarea name="Mensaje" cols="30" rows="10" class="input-control" placeholder="Escriba un mensaje aquí">
-                                </textarea> 
-                        <button type="submit" class="contact-send-btn button">Enviar
+                            </label> 
+                            <label>Email *               
+                                <input type="email" name="Email" placeholder="p. ej.: teamoedward@gmail.com"/> 
+                            </label>  
+                            <label>Mensaje *
+                                <textarea name="Mensaje" cols="30" rows="10" placeholder="Escriba un mensaje aquí"></textarea> 
+                            </label>
+                        <button type="submit" class="boton">Enviar
                         </button>
                         
                     </form>
