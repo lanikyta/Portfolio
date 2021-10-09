@@ -153,7 +153,7 @@ img{
     padding-bottom: 2em;
 }
 figcaption{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     color: aqua;
@@ -162,7 +162,6 @@ figcaption{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: stretch;
 }
 
 /*sección de cita*/
@@ -296,4 +295,54 @@ footer a{
 }
 footer a:hover{
     color: rgb(247, 196, 238);
+}
+
+/*media queries*/
+
+@media (max-width: 768px){
+    nav{
+        text-align: center;
+    }
+    .primera{
+        flex-wrap: wrap;
+        padding: 1%;
+        padding-top: 5%;
+    }
+    .text{
+        flex-basis: 75%;
+        text-align: center;
+    }
+    .imagen{
+        flex-basis: 75%;
+    }
+    .segunda, .cuarta{
+        margin: 4% auto;
+        padding-top: 8%;
+        width: 90%;
+    }
+    .c1{
+        width: 45%;
+        margin: 3% 1%;
+        padding: 1%;
+    }
+}
+@media (max-width: 425px){
+    nav{
+        display: none;
+    }
+    .divflex{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .primera{
+        
+        padding-top: 2%;
+    }
+    .imagen{
+        flex-basis: 75%;
+    }
+    .c1{
+        width: 75%;
+        margin: 1% auto;
+    }
 }
