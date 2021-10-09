@@ -2,9 +2,7 @@
     padding: 0%;
     margin: 0%;
 }
-main{
-    box-shadow: inset -69px 37px 24px -68px lightskyblue;
-}
+
 /*header*/
 header{
     background-color: rgba(145, 62, 212, 0.274);
@@ -22,40 +20,44 @@ nav{
 
 ul{
     list-style: none;
-    padding: 0.8em;
-    margin-right: 2em;
+    padding: 1%;
+    margin-right: 2%;
 }
 header li{
     display: inline;
-    padding: 0.6em 0.8em;
+    padding: 0.6% 0.8%;
     margin: 1% 0.5%;
     background-color: rgba(228, 92, 160, 0.671);
-    border-radius: 20px;
+    border-radius: 40px;
     font-family: 'Monoton', cursive;
     font-size: 1.5vw;    
 }
 header li:hover{
     box-shadow: 2px 1px 24px 19px #6BE9F9;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 header a{
     text-decoration: none;
     color: rgb(54, 47, 150);
     text-transform: uppercase;
 }
-
+header a:hover{
+    color: steelblue;
+}
 .buttdif{
     background-color: aqua;
     text-transform: uppercase;
 }
 .buttdif:hover{
     box-shadow: 2px 1px 24px 19px #F8C0C8;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 /*MAIN*/
 main{
+    box-shadow: inset -69px 37px 24px -68px lightskyblue;
     background-image: url("../img/bg1.jpg");
     background-repeat: repeat;
+    display: inline-block;
 }
 /*sección de presentación*/
 .primera{
@@ -153,7 +155,7 @@ img{
 figcaption{
     font-size: 1.5vw;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: aqua;
 }
 .divflex{
@@ -188,54 +190,110 @@ figcaption{
     background-color: rgba(161, 118, 189, 0.295);
 }
 .quinta p{
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: rgb(241, 114, 110);
     font-weight: bold;
+}
+.quinta i{
+    font-size: 2vw;
+    color: royalblue;
+}
+.linkcontacto{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: slateblue;
+}
+.linkcontacto:visited{
+    color: rgb(207, 106, 202);
+}
+.linkcontacto:hover{
+    color: cyan;
 }
 .columna{
     margin: 1em auto;
     padding: 1em;
     flex-basis: 40%;
 }
-.escribime{
-    
-}
-.quinta i{
-    font-size: 2vw;
-    color: royalblue;
-}
 
+/*.quinta i:hover{
+    color: cyan;
+}*/
+.quinta li:hover{
+    color: cyan;
+}
 /*formulario*/
-
+.cajaform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 input[type=text], [type=email]{
     background-color: rgba(241, 142, 167, 0.801);
-    border: 2px dotted rgb(142, 160, 241);
+    border: 2px solid rgb(142, 160, 241);
     border-radius: 25px;
     height: 2em;
-    width: 40%;
+    width: 100%;
 }
 input[type=email]{
-    width: 90%;
+    width: 100%;
 }
 
 input, textarea{
     color: rgb(121, 14, 221);
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.1vw;
+    padding-left: 1%;
 }
 textarea{
     background-color: rgba(241, 142, 167, 0.801);
-    border: 2px dotted rgb(142, 160, 241);
+    border: 2px solid rgb(142, 160, 241);
     border-radius: 4px;
-    padding-left: 5px;
-    color: black;
-    height: 140px;
-    margin-top: 10px;
+    padding: 1% 2%;
+    width: 100%;
+}
+.small{
+    padding: 1% 2%;
+    flex-basis: 45%;
+}
+.large{
+    flex-basis: 95%;
+    padding: 1% 2%;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vw;
+    font-weight: bold;
 }
 button{
     background-color: cornflowerblue;
-    font-family: 'Courier New', Courier, monospace;
-    border: 2px solid rgb(121, 14, 221);
+    font-family: 'Gluten', cursiv;
+    border: 2px solid darkblue;
     padding: 1em;
     border-radius: 10px;
+}
+
+/*aqui comienza el footer*/
+
+footer{
+    text-align: center;
+    padding: 3%;
+    background-color: rgb(142, 160, 241);
+}
+footer li{
+    display: inline;
+}
+.footli{
+    margin: 1% 0.5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+footer a{
+    margin: 1%;
+    text-decoration: none;
+    color: rgb(226, 30, 144);
+    text-transform: uppercase;
+}
+footer a:hover{
+    color: rgb(247, 196, 238);
 }
