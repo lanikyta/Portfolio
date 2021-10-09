@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Gluten&family=Monoton&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/0171034dd8.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!--aqui comienza el header-->
@@ -29,7 +30,7 @@
                     <h1>Hola soy</h1>
                     <h2>Aylen Cruz</h2>
                     <p class="parrafo">Programadora, gamer y una soñadora</p>
-                    <li class="buttdif"><a href="#" >lo que hago</a></li>
+                    <li class="buttdif"><a href="#proyectos" >lo que hago</a></li>
                 </div>
                 <div class="imagen">
                     <img src="img/1.png" alt="dibujopc" width="100%">
@@ -73,7 +74,7 @@
 
             <section class="tercera">
                 <div class="cita">
-                    <h2>"</h2>
+                    <i class="fas fa-quote-right"></i>
                     <p class="parrafo">Lo que hagas en la vida será insignificante, pero es muy importante que lo hagas.</p>
                     <h1>GHANDI</h1>
                 </div>
@@ -86,15 +87,15 @@
                 <p class="parrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vero, libero repellat numquam eum accusantium magnam alias doloremque sed neque dolorum eius sit vel provident laborum, saepe, quas maiores non.</p>
                 <div class="divflex">
                     <div class="c1" id="cajaA">
-                        <img src="img/girlicon.png" alt="chica teclado">
+                        <a href="https://lanikyta.github.io/Portfolio/" target="_blank"><img src="img/girlicon.png" alt="chica teclado"></a>
                         <figcaption>Portfolio</figcaption>
                     </div>
                     <div class="c1" id="cajaB">
-                        <img src="img/girl2.png" alt="chica teclado">
+                        <a href="https://lanikyta.github.io/galery-botanique/" target="_blank"><img src="img/girl2.png" alt="chica teclado"></a>
                         <figcaption>Botanic Gallery</figcaption>
                     </div>
                     <div class="c1" id="cajaC">
-                        <img src="img/girl3.png" alt="chica teclado">
+                        <a href="https://lanikyta.github.io/Proyecto-piano/" target="_blank"><img src="img/girl3.png" alt="chica teclado"></a>
                         <figcaption>Pianos</figcaption>
                     </div>
                     <div class="c1" id="cajaD">
@@ -102,15 +103,15 @@
                         <figcaption>Responsive Single Page</figcaption>
                     </div>
                     <div class="c1" id="cajaE">
-                        <img src="img/girlicon.png" alt="chica teclado">
+                        <img src="img/girl7.png" alt="chica teclado">
                         <figcaption>HTML-5</figcaption>
                     </div>
                     <div class="c1" id="cajaF">
-                        <img src="img/girlicon.png" alt="chica teclado">
+                        <img src="img/girl5.png" alt="chica teclado">
                         <figcaption>HTML-5</figcaption>
                     </div>
                     <div class="c1" id="cajaG">
-                        <img src="img/girlicon.png" alt="chica teclado">
+                        <img src="img/girl6.png" alt="chica teclado">
                         <figcaption>HTML-5</figcaption>
                     </div>
                 </div>
@@ -122,10 +123,12 @@
                 <div class="columna">
                     <h1>Contactame</h1>
                     <p class="parrafo2">Aquí te dejo los links de mis paginas personales para que puedas saber mas de mi o para comunicarte conmigo. Si lo prefieres, puedes dejarme un mensaje con tus datos y yo me comunicaré contigo.</p>
-                    <li><a href="https://www.facebook.com/Nikycruz" target="_blank">Ayleen Cruz</a></li>
-                    <li><a href="https://github.com/lanikyta" target="_blank">lanikyta</a></li>
-                    <li><a href="#">linkedin</a></li>
-                    <li><a href="mailto:lanikyta29@gmail.com">lanikyta29@gmail.com</a></li>
+                    <ul>
+                    <li><a href="https://www.facebook.com/Nikycruz" target="_blank"><i class="fab fa-facebook"></i>Ayleen Cruz</a></li>
+                    <li><a href="https://github.com/lanikyta" target="_blank"><i class="fab fa-github"></i>lanikyta</a></li>
+                    <li><a href="https://www.linkedin.com/in/jael-aylen-cruz-141130220/" target="_blank"><i class="fab fa-linkedin"></i>linkedin</a></li>
+                    <li><a href="mailto:lanikyta29@gmail.com"><i class="fas fa-envelope"></i>lanikyta29@gmail.com</a></li>
+                    </ul>
                 </div>
                 <div class="columna">
                     <h1>Escribime</h1>
@@ -134,16 +137,16 @@
                         <div class="divflex">
                                  
                             <label>Nombre *               
-                                <input type="text" name="Nombre" placeholder="p. ej.: Edward"/>
+                                <input type="text" name="Nombre" required="required" placeholder="p. ej.: Edward"/>
                             </label> 
                             <label>Apellido *               
-                                <input type="text" name="Apellido" placeholder="p. ej.: Cullen"/>
+                                <input type="text" name="Apellido" required="required" placeholder="p. ej.: Cullen"/>
                             </label> 
                             <label>Email *               
-                                <input type="email" name="Email" placeholder="p. ej.: teamoedward@gmail.com"/> 
+                                <input type="email" name="Email" required="required" placeholder="p. ej.: teamoedward@gmail.com"/> 
                             </label>  
                             <label>Mensaje *
-                                <textarea name="Mensaje" cols="30" rows="10" placeholder="Escriba un mensaje aquí"></textarea> 
+                                <textarea name="Mensaje" required="required" cols="30" rows="10" placeholder="Escriba un mensaje aquí"></textarea> 
                             </label>
                         <button type="submit" class="boton">Enviar
                         </button>

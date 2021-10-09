@@ -57,10 +57,9 @@ main{
     background-image: url("../img/bg1.jpg");
     background-repeat: repeat;
 }
-/*aqui comiensa el primer section*/
+/*sección de presentación*/
 .primera{
     display: flex;
-    /*margin: 2% auto;*/
     width: 90%;
     justify-content: center;
     align-content: center;
@@ -97,6 +96,7 @@ h2{
 }
 .primera a{
     color: hotpink;
+    font-family: 'Gluten', cursiv;
     text-decoration: none;
 }
 .primera li{
@@ -104,12 +104,13 @@ h2{
     padding: 0.3em;
     margin: 1em auto;
     width: 10em;
+    border: 2px solid rgb(54, 47, 150);
     border-radius: 20px;
     font-family: 'Monoton', cursive;
     font-size: 1.5vw;
 }
 
-/*segunda section*/
+/*sección de conocimientos*/
 
 .segunda, .cuarta{
     text-align: center;
@@ -121,20 +122,26 @@ h2{
     box-shadow: 2px 1px 24px 19px #6BE9F9;
 }
 .c1{
-    width: 30%;
+    width: 25%;
+    margin: 3% 1%;
     padding: 1%;
-    align-items: ;
 }
 .c1:hover{
     box-shadow: 2px 1px 24px 19px #6BE9F9;
     border-radius: 5px;
-
 }
 img{
     width: 100%;
 }
 .segunda img{
-    width: 50%;
+    width: 40%;
+    margin: 5%;
+}
+#caja3 img{
+    width: 55%;
+}
+#caja5 img{
+    width: 50%
 }
 .parrafo2{
     font-size: 2vw;
@@ -152,10 +159,11 @@ figcaption{
 .divflex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-content: stretch;
 }
 
-/*tercer section*/
+/*sección de cita*/
 
 .tercera{
     background-color: rgba(161, 118, 189, 0.295);
@@ -165,15 +173,18 @@ figcaption{
     width: 40%;
     margin: 1% auto;
 }
-
-/*quinta section*/
+.tercera i{
+    color: cornflowerblue;
+    font-size: 8vw;
+}
+/*sección de contacto*/
 
 .quinta{
     display: flex;
     width: 70%;
     margin: 1em auto;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     background-color: rgba(161, 118, 189, 0.295);
 }
 .quinta p{
@@ -188,6 +199,10 @@ figcaption{
 }
 .escribime{
     
+}
+.quinta i{
+    font-size: 2vw;
+    color: royalblue;
 }
 
 /*formulario*/
