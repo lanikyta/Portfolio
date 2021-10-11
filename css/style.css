@@ -183,6 +183,7 @@ figcaption{
 .quinta{
     display: flex;
     width: 70%;
+    padding: 5% 2%;
     margin: 1em auto;
     justify-content: center;
     text-align: left;
@@ -195,11 +196,11 @@ figcaption{
 }
 .quinta i{
     font-size: 2vw;
-    color: royalblue;
 }
 .linkcontacto{
     text-decoration: none;
     font-size: 1.5vw;
+    font-family: 'Gluten', cursive;
     color: slateblue;
 }
 .linkcontacto:visited{
@@ -217,14 +218,14 @@ figcaption{
 /*.quinta i:hover{
     color: cyan;
 }*/
-.quinta li:hover{
+/*.quinta li:hover{
     color: cyan;
-}
+}*/
 /*formulario*/
 .cajaform{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 input[type=text], [type=email]{
     background-color: rgba(241, 142, 167, 0.801);
@@ -246,17 +247,14 @@ input, textarea{
 textarea{
     background-color: rgba(241, 142, 167, 0.801);
     border: 2px solid rgb(142, 160, 241);
-    border-radius: 4px;
-    padding: 1% 2%;
+    border-radius: 25px;
     width: 100%;
 }
 .small{
-    padding: 1% 2%;
     flex-basis: 45%;
 }
 .large{
-    flex-basis: 95%;
-    padding: 1% 2%;
+    flex-basis: 100%;
 }
 label{
     font-family: 'Courier New', Courier, monospace;
@@ -267,7 +265,7 @@ button{
     background-color: cornflowerblue;
     font-family: 'Gluten', cursiv;
     border: 2px solid darkblue;
-    padding: 1em;
+    padding: 1%;
     border-radius: 10px;
 }
 
@@ -308,6 +306,18 @@ footer a:hover{
         padding: 1%;
         padding-top: 5%;
     }
+    h1{
+        font-size: 2.5rem;
+    }
+    .columna .parrafo2{
+        font-size: 0.8rem;
+    }
+    .quinta a{
+        font-size: 1rem;
+    }
+    .quinta i{
+        font-size: 1.5rem;
+    }
     .text{
         flex-basis: 75%;
         text-align: center;
@@ -320,10 +330,23 @@ footer a:hover{
         padding-top: 8%;
         width: 90%;
     }
+    .quinta{
+        width: 90%;
+        flex-wrap: wrap; -----------*
+    }
     .c1{
         width: 45%;
         margin: 3% 1%;
         padding: 1%;
+    }
+    .columna{
+        flex-basis: 80%;
+    }
+    input, textarea{
+        font-size: 1rem;
+    }
+    label{
+        font-size: 1rem;
     }
 }
 @media (max-width: 425px){
@@ -345,4 +368,15 @@ footer a:hover{
         width: 75%;
         margin: 1% auto;
     }
+    .quinta{
+        flex-direction: column;
+        padding: 2%;
+    }
+    .columna{
+        text-align: justify;
+    }
+    .columna .small{
+        flex-basis: 90%;
+    }
+        
 }
