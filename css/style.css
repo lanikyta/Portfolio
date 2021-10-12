@@ -17,7 +17,9 @@ nav{
     text-align: right;
     
 }
-
+.menu{
+    display: none;
+}
 ul{
     list-style: none;
     padding: 1%;
@@ -210,17 +212,10 @@ figcaption{
     color: cyan;
 }
 .columna{
-    margin: 1em auto;
-    padding: 1em;
+    margin: 1% auto;
+    padding: 3%;
     flex-basis: 40%;
 }
-
-/*.quinta i:hover{
-    color: cyan;
-}*/
-/*.quinta li:hover{
-    color: cyan;
-}*/
 /*formulario*/
 .cajaform{
     display: flex;
@@ -233,6 +228,7 @@ input[type=text], [type=email]{
     border-radius: 25px;
     height: 2em;
     width: 100%;
+    margin: 1% auto;
 }
 input[type=email]{
     width: 100%;
@@ -242,7 +238,7 @@ input, textarea{
     color: rgb(121, 14, 221);
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.1vw;
-    padding-left: 1%;
+    padding: 2%;
 }
 textarea{
     background-color: rgba(241, 142, 167, 0.801);
@@ -275,6 +271,9 @@ footer{
     text-align: center;
     padding: 3%;
     background-color: rgb(142, 160, 241);
+}
+footer .menu{
+    display: none;
 }
 footer li{
     display: inline;
@@ -339,19 +338,35 @@ footer a:hover{
         margin: 3% 1%;
         padding: 1%;
     }
+    .parrafo2{
+        font-size: 1rem;
+    }
     .columna{
         flex-basis: 80%;
     }
+    .cajaform
     input, textarea{
         font-size: 1rem;
     }
     label{
         font-size: 1rem;
     }
+    footer i{
+        font-size: 1rem;
+    }
 }
 @media (max-width: 425px){
+    header{
+        text-align: center;
+    }
     nav{
         display: none;
+    }
+    nav:hover{
+        display: block;
+    }
+    .menu{
+        display: block;
     }
     .divflex{
         flex-direction: column;
@@ -377,6 +392,12 @@ footer a:hover{
     }
     .columna .small{
         flex-basis: 90%;
+    }
+    .footli{
+        display: none;
+    }
+    footer .menu{
+        display: block;
     }
         
 }
